@@ -127,6 +127,8 @@ h3 {
   position: fixed;
   margin: auto;
   width: 100%;
+  z-index: 19;
+  margin-top: 0;
 }
 .nav-menu {
   display: flex;
@@ -176,7 +178,6 @@ h3 {
   width: 3rem;
 }
 .main-row {
-  margin-top: 0.2rem;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
@@ -1152,7 +1153,7 @@ textarea {
 
 #hamburger-menu {
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 40px;
   width: 40px;
   height: 30px;
