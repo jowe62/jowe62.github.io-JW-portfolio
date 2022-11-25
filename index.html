@@ -23,48 +23,84 @@
       <div class="menu-container">
         <div class="logo"><img src="img/JW..svg" alt="JW" /></div>
         <div class="nav-menu">
-          <a href="#fest" class="header-menu-button">HOME</a>
-          <a class="header-menu-button">PROJECTS</a>
-          <a class="header-menu-button">ABOUT ME</a>
-          <a class="header-menu-button">CONTACT</a>
+          <a href="#home" class="header-menu-button">HOME</a>
+          <a href="#projects" class="header-menu-button">PROJECTS</a>
+          <a href="#About" class="header-menu-button">ABOUT ME</a>
+          <a href="#contact" class="header-menu-button">CONTACT</a>
         </div>
+
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+          <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#About">ABOUT ME</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </label>
+
+        <div class="overlay"></div>
       </div>
     </header>
+    <section class="home" id="home">
+      <div class="main-row">
+        <div class="column1">
+          <div id="element" class="card-first-name">JOHN</div>
+          <div id="element2" class="card-last-name">WENNERQVIST</div>
+          <b class="hr anim"></b>
 
-    <div class="main-row">
-      <div class="column1">
-        <div id="element" class="card-first-name">JOHN</div>
-        <div id="element2" class="card-last-name">WENNERQVIST</div>
-        <b class="hr anim"></b>
-
-        <h1 class="light">Digital Designer</h1>
-        <h1 class="regular">Motion Designer</h1>
-        <h1 class="medium">Web Designer</h1>
-        <h1 class="semi-bold">3D Designer</h1>
-        <h1 class="bold">UX Designer</h1>
+          <h1 class="light">3D Designer</h1>
+          <h1 class="regular">UX Designer</h1>
+          <h1 class="medium">Motion Designer</h1>
+          <h1 class="semi-bold">Web Designer</h1>
+          <h1 class="bold">Digital Designer</h1>
+        </div>
       </div>
-    </div>
-
-    <section class="projects" id="fest">
+    </section>
+    <section class="projects" id="projects">
       <div class="showcase-top-row">
-        <a href="Projects.html"><div class="showcase-item-1 selector"></div></a>
-        <a href="Projects.html"><div class="showcase-item-2 selector"></div></a>
-        <a href="Projects.html"><div class="showcase-item-3 selector"></div></a>
+        <a class="selector" href="Project1.html"
+          ><div class="showcase-item-1"></div
+        ></a>
+        <a class="selector" href="Project2.html"
+          ><div class="showcase-item-2"></div
+        ></a>
+        <a class="selector" href="Project3.html"
+          ><div class="showcase-item-3"></div
+        ></a>
       </div>
 
       <div class="showcase-bottom-row">
-        <a href="Projects.html"><div class="showcase-item-4 selector"></div></a>
-        <a href="Projects.html"><div class="showcase-item-5 selector"></div></a>
-        <a href="Projects.html"><div class="showcase-item-6 selector"></div></a>
+        <a class="selector" href="Project4.html"
+          ><div class="showcase-item-4"></div
+        ></a>
+        <a class="selector" href="Project5.html"
+          ><div class="showcase-item-5"></div
+        ></a>
+        <a class="selector" href="Project6.html"
+          ><div class="showcase-item-6"></div
+        ></a>
       </div>
     </section>
 
-    <section class="About">
+    <section class="parallax-container">
+      <h1>&bull;LAME ONE LINER&bull;</h1>
+      <p>Här fanns det en massa kol, vad ovanligt.</p>
+    </section>
+
+    <section class="About" id="About">
       <div class="about-container">
-        <div class="About-me"><h1 class="about-h1">ABOUT ME</h1></div>
+        <div class="About-me">
+          <h1 class="about-h1">ABOUT ME</h1>
+        </div>
         <div class="Skills">
           <div class="skills-header"><h2 class="about-h2">InDesign</h2></div>
-          <div class="skills-1"><h2 class="about-h2">Photoshop</h2></div>
+          <div class="skills-1">
+            <h2 class="about-h2">Photoshop</h2>
+          </div>
           <div class="skills-2"><h2 class="about-h2">Illustrator</h2></div>
           <div class="skills-3"><h2 class="about-h2">Figma</h2></div>
           <div class="skills-4"><h1 class="about-h1">My Skills</h1></div>
@@ -100,8 +136,8 @@
         </div>
       </div>
     </section>
-
-    <section class="contact">
+    <section class="parallax-container parallax-container2"></section>
+    <section class="contact" id="contact">
       <div id="container">
         <h1>&bull; Keep in Touch &bull;</h1>
         <div class="underline"></div>
@@ -159,27 +195,25 @@
     </section>
 
     <footer>
-      <ul class="socials">
+      <ul class="social-icons">
         <li>
-          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-youtube"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
         </li>
       </ul>
       <div class="contact-info-menu">
         <h5>j.wennerqvist@gmail.com</h5>
         <h5>070-123 45 67</h5>
-        <h5>Adressvägen 12 411 12 Göteborg</h5>
+        <h5>Adressvägen 12</h5>
+        <h5>411 12 Göteborg</h5>
       </div>
     </footer>
   </body>
